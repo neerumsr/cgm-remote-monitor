@@ -25,7 +25,7 @@ ANALYZED=./coverage/lcov.info
 # Following token deprecated
 # export CODACY_REPO_TOKEN=e29ae5cf671f4f918912d9864316207c
 
-DOCKER_IMAGE=nightscout/cgm-remote-monitor
+DOCKER_IMAGE=glurrior/glurrior
 
 all: test
 

@@ -44,9 +44,9 @@ jobs:
     name: Publish to Docker Hub
     needs: test
     runs-on: ubuntu-latest
-    if: (github.ref == 'refs/heads/master' || github.ref == 'refs/heads/dev') && github.repository_owner == 'nightscout'
+    if: (github.ref == 'refs/heads/master' || github.ref == 'refs/heads/dev') && github.repository_owner == 'neerumsr'
     env:
-      DOCKER_IMAGE: nightscout/cgm-remote-monitor
+      DOCKER_IMAGE: glurrior/glurrior
       PLATFORMS: linux/amd64,linux/arm64
     steps:
       - name: Set up QEMU
